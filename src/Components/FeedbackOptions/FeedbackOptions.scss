@@ -1,0 +1,39 @@
+.feedback {
+
+    &__list {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 10px 20px 30px;
+
+    list-style: none;
+    }
+
+    &__btn {
+        padding: 10px 20px;
+        min-width: 100px;
+
+        background-color: cadetblue;
+        color: rgb(255, 255, 255);
+
+        border-radius: 5px;
+        border: 1px solid rgb(145, 255, 0);
+
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 10px;
+
+        cursor: pointer;
+        text-transform: uppercase;
+
+        transition: all 0.3s;
+
+
+        &:hover {
+            background-color: rgb(1, 50, 124);
+            color: cornsilk;
+            transform: scale(1.2);
+            transition: all 0.3s
+        }
+    }
+}

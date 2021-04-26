@@ -1,0 +1,20 @@
+.stats {
+    &__list {
+    padding: 20px 30px 0;
+    
+    list-style: none;
+
+    color: white;
+
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    // line-height: 10px;
+
+    height: 100%;
+    }
+
+    &__item {
+        padding-bottom: 5px;
+    }
+}

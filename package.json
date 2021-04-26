@@ -1,8 +1,8 @@
 {
-  "name": "repository_name",
+  "name": "goit-react-hw-02-feedback",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://GromovVv.github.io/repository_name",
+  "homepage": "https://GromovVv.github.io/goit-react-hw-02-feedback",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
@@ -12,6 +12,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "shortid": "^2.2.16",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
